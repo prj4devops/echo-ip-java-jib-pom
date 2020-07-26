@@ -50,7 +50,10 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <to>
-                        <image>192.168.1.10:8443/sample-java-app-jib:2</image>
+                        <image>192.168.1.10:8443/sample-java-app-jib</image>
+                        <tags>
+                            <tag>${image.tag}</tag>
+                        </tags>
                     </to>
                 </configuration>
             </plugin>
