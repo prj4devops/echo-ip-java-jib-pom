@@ -50,7 +50,7 @@
                 <configuration>
                     <allowInsecureRegistries>true</allowInsecureRegistries>
                     <to>
-                        <image>192.168.1.10:8443/sample-java-app-jib</image>
+                        <image>192.168.1.10:8443/echo-ip-java-jib</image>
                         <tags>
                             <tag>${image.tag}</tag>
                         </tags>
