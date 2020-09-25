@@ -11,7 +11,7 @@ import java.util.Map;
 public class SampleController {
 
     @RequestMapping("/")
-    public String helloModified(HttpServletRequest request){
+    public String greet(HttpServletRequest request){
         String result = "src: "+request.getRemoteAddr()+" / dest: "+request.getServerName()+"\n";
         return result;
     }
